@@ -57,13 +57,14 @@ The application includes data preprocessing, exploratory data analysis, model bu
 ## Project Structure
 
 ```
-├── app.py                    # Streamlit web application
-├── final_notebook.ipynb     # Jupyter notebook with full project pipeline
-├── sentiment_model.pkl      # Trained sentiment classification model
-├── tfidf_vectorizer.pkl     # Saved TF-IDF vectorizer
-├── requirements.txt         # Required Python packages
-├── README.md                # Project documentation
-└── data/
+amazon-sentiment-analysis/
+├── models/
+│   ├── svc_model.pkl
+│   └── logistic_model.pkl
+├── vectorizers/
+│   └── vectorizer.pkl
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -126,12 +127,6 @@ We developed a user-friendly **Streamlit app** that allows users to:
 
 <img width="1400" height="800" alt="image" src="https://github.com/user-attachments/assets/ec1d3890-f540-4dea-a028-74a4bdb9de35" />
 
-Launch the app locally:
-
-```bash
-streamlit run app.py
-```
-
 ---
 
 ## Example Use Cases
@@ -153,8 +148,6 @@ This project was developed by:
 - **Ahmed Shaaban**
 
 > *For academic, educational, and portfolio purposes.*
-
----
 
 ---
 
