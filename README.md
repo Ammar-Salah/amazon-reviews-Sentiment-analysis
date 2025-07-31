@@ -1,5 +1,5 @@
 
-# 🛍️ Amazon Product Review Sentiment Analysis
+# Amazon Product Review Sentiment Analysis
 
 ## Overview
 
@@ -124,6 +124,8 @@ We developed a user-friendly **Streamlit app** that allows users to:
 - Choose between **Logistic Regression** and **SVM** models
 - Instantly get sentiment prediction: **Positive**, **Negative**, or **Neutral**
 
+<img width="1400" height="800" alt="image" src="https://github.com/user-attachments/assets/ec1d3890-f540-4dea-a028-74a4bdb9de35" />
+
 Launch the app locally:
 
 ```bash
@@ -153,53 +155,6 @@ This project was developed by:
 > *For academic, educational, and portfolio purposes.*
 
 ---
-
-## How to Use
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/amazon-sentiment-analysis.git
-cd amazon-sentiment-analysis
-```
-
-2. Create a virtual environment (recommended):
-
-```bash
-python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Run the Streamlit app:
-
-```bash
-streamlit run app.py
-```
-
----
-
-## Requirements
-
-All dependencies are listed in `requirements.txt`, including:
-
-- `pandas`
-- `numpy`
-- `scikit-learn`
-- `nltk`
-- `joblib`
-- `streamlit`
-
----
-
-## License
-
-This project is provided for educational purposes only. Commercial use or redistribution is not permitted without permission.
 
 ---
 
