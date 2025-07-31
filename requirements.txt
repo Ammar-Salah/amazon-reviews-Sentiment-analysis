@@ -1,0 +1,13 @@
+kagglehub
+pandas
+numpy
+nltk
+scikit-learn
+streamlit
+matplotlib
+seaborn
+wordcloud
+plotly
+tqdm
+Pillow
+imblearn
