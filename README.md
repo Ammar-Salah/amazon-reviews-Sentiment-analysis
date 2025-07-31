@@ -62,7 +62,6 @@ The application includes data preprocessing, exploratory data analysis, model bu
 ├── sentiment_model.pkl      # Trained sentiment classification model
 ├── tfidf_vectorizer.pkl     # Saved TF-IDF vectorizer
 ├── requirements.txt         # Required Python packages
-├── .gitignore               # Ignored files/folders
 ├── README.md                # Project documentation
 └── data/
 ```
